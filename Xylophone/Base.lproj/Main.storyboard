@@ -26,6 +26,9 @@
                                         <state key="normal" title="A">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="keyAPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e4y-1m-uNV"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YQ6-uq-yl5">
                                         <rect key="frame" x="8" y="114.5" width="366" height="98.5"/>
@@ -34,6 +37,9 @@
                                         <state key="normal" title="B">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="keyBPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="R5K-FJ-2mo"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QLb-H6-C74">
                                         <rect key="frame" x="16" y="229" width="350" height="98.5"/>
@@ -42,6 +48,9 @@
                                         <state key="normal" title="C">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="keyCPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3lZ-Vw-Atr"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nHK-9Z-GCU">
                                         <rect key="frame" x="24" y="343.5" width="334" height="99"/>
@@ -50,6 +59,9 @@
                                         <state key="normal" title="D">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="keyDPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lP1-2U-46G"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T5x-OR-lH1">
                                         <rect key="frame" x="32" y="458.5" width="318" height="98.5"/>
@@ -58,6 +70,9 @@
                                         <state key="normal" title="E">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="keyEPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XDE-Ys-SDB"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v4d-GD-GyT">
                                         <rect key="frame" x="40" y="573" width="302" height="98.5"/>
@@ -66,6 +81,9 @@
                                         <state key="normal" title="F">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="keyFPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cmy-za-OHu"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lCQ-KP-Uol">
                                         <rect key="frame" x="48" y="687.5" width="286" height="98.5"/>
@@ -74,6 +92,9 @@
                                         <state key="normal" title="G">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="keyGPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cUW-8g-cpB"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
